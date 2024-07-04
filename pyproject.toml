@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "openai-function-calling-openapi-spec"
+version = "0.1.0"
+description = ""
+authors = ["Eirik Kjærnli"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.35.10"
+jsonref = "^1.1.0"
+ipykernel = "^6.29.5"
+requests = "^2.32.3"
+tiktoken = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
